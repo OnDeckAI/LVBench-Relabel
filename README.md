@@ -1,4 +1,18 @@
-# LVBench relabelled answer keys
+<h1 align="center">LVBench Relabel</h1>
+
+<p align="center">
+  These annotations accompany our paper,<br>
+  <em>What Does Multiple Choice Actually Measure?<br>
+  Disentangling Video Understanding from Option Exploitation</em>,<br>
+  which studies how answer options affect video understanding evaluation.
+</p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2611.11062">arXiv</a> ·
+  <a href="https://neurips.cc/virtual/2026/loc/sydney/178197">NeurIPS</a> ·
+  <a href="https://openreview.net/forum?id=qshO3h92ds">OpenReview</a> ·
+  <a href="https://huggingface.co/datasets/OnDeckAI/LVBench-Relabel">HuggingFace 🤗</a>
+</p>
 
 Corrected multiple-choice answer keys for [LVBench](https://github.com/zai-org/LVBench),
 a long-video understanding benchmark. Every question in the corpus was independently
@@ -7,6 +21,8 @@ two can be compared directly.
 
 This repository contains **annotations only**. No video is redistributed here. See
 [Getting the videos](#getting-the-videos).
+
+If you use these annotations, please [cite our paper](#citation).
 
 ## What is here
 
@@ -99,13 +115,10 @@ These keys were produced for, and are described in:
 @inproceedings{dyanatkar2026multiplechoice,
   title     = {What Does Multiple Choice Actually Measure? Disentangling Video
                Understanding from Option-Exploitation},
-  author    = {Dyanatkar, Sepand and Piercy, Elliott and Chan, Justin},
+  author    = {Piercy, Elliott and Chan, Justin and Dyanatkar, Sepand},
   booktitle = {NeurIPS 2026 Workshop: Can We Trust AI Evaluation? Robustness,
                Causality, and Risk in Modern AI Assessment},
   year      = {2026},
   url       = {https://openreview.net/forum?id=qshO3h92ds}
 }
 ```
-
-OpenReview: <https://openreview.net/forum?id=qshO3h92ds>
-NeurIPS: <https://neurips.cc/virtual/2026/loc/sydney/178197>
